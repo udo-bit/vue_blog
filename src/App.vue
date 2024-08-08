@@ -23,6 +23,8 @@ const {increment} = useCounter();
     <n-button @click="increment">increment</n-button>
   </div>
 
+  <RouterView></RouterView>
+
 </template>
 
 
