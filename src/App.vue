@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import {user} from "@/api/user.ts";
-user();
 </script>
 
 <template>
