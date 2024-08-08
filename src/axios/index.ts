@@ -4,7 +4,7 @@ import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse, InternalAxiosR
 const config = {
     // baseURL:'http://localhost:8080',
     baseURL: '/api',
-    timeout: 1000
+    timeout: 5000
 }
 const message = useMessage();
 // 定义返回值类型
