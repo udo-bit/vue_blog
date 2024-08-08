@@ -45,8 +45,8 @@ class Http {
         // axios 请求返回之后的处理
         // 请求返回处理
         this.instance.interceptors.response.use((res: AxiosResponse) => {
-            // console.log(res.data);
-            if (res.data.code != 200) {
+
+            if (res.status != 200) {
                 message.error(res.data.msg || '服务器出错啦');
                 return Promise.reject(res.data.msg || '服务器出错啦');
             } else {
