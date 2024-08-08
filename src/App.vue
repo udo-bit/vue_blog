@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import {user} from "./api/user.ts";
 </script>
 
 <template>
@@ -8,7 +7,6 @@ import {user} from "./api/user.ts";
   <n-card title="hello">
     <p>hello</p>
   </n-card>
-  {{user(1,3)}}
 </template>
 
 <style scoped>

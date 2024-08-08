@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/node": "^22.1.0",
+    "axios": "^1.7.3",
     "naive-ui": "^2.39.0",
     "vue": "^3.4.31"
   },
